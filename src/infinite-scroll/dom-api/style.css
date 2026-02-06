@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+div {
+  width: 220px;
+  height: 280px;
+  background: #e5d1b5;
+  overflow-y: auto;
+}
+
+.row {
+  height: 25px;              /* fixed height like screenshot */
+  line-height: 25px;         /* vertical center text */
+  padding-left: 10px;
+  border-bottom: 1px solid #d2bfa5;
+  font-size: 19px;
+}

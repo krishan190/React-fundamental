@@ -1,15 +1,14 @@
 
 import './App.css'
-import Pagination from './Components/Pagination'
+import InfiniteScrollDomApi from './infinite-scroll/dom-api/InfiniteScollDomApi'
 
 
 function App() {
 
   return (
-    <>
-      <h1>Vite + React</h1>
-      <Pagination/>
-    </>
+    <div className="App">
+      <InfiniteScrollDomApi />
+    </div>
   )
 }
 

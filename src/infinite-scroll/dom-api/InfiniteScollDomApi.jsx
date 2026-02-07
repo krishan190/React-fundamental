@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './style.css'
+// import './style.css'
 
 const Threshold = 20;
 
@@ -19,6 +19,7 @@ function InfiniteScrollDomApi() {
             loadMoreData();
         }
         console.log("scroll");
+
 
     }
 

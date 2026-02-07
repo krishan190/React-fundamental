@@ -1,13 +1,13 @@
 
 import './App.css'
-import InfiniteScrollDomApi from './infinite-scroll/dom-api/InfiniteScollDomApi'
+import CheckBox from './codestepbystep/CheckBox'
 
 
 function App() {
 
   return (
     <div className="App">
-      <InfiniteScrollDomApi />
+      <CheckBox />
     </div>
   )
 }

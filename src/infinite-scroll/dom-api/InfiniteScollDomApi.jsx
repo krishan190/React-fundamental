@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import './style.css'
+import './style.css'
 
 const Threshold = 20;
 
@@ -13,7 +13,7 @@ function InfiniteScrollDomApi() {
         console.log("scrollHeight:", scrollHeight);
         console.log("clientHeight:", clientHeight);
 
-        console.log("formula logic", scrollTop + clientHeight, scrollHeight - Threshold);
+        // console.log("formula logic", scrollTop + clientHeight, scrollHeight - Threshold);
 
         if (scrollTop + clientHeight >= scrollHeight - Threshold) {
             loadMoreData();
@@ -25,7 +25,7 @@ function InfiniteScrollDomApi() {
 
     function loadMoreData() {
         setTimeout(() => {
-            setData(prev => [...prev, ...new Array(10)]);
+            setData(prev => [...prev, ...new Array(5)]);
         }, 1000);
     }
 

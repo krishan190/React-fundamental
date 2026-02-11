@@ -1,15 +1,12 @@
 
-import './App.css'
-import CheckBox from './codestepbystep/CheckBox'
-import InfiniteScrollDomApi from './infinite-scroll/dom-api/InfiniteScollDomApi'
+import AutoSuggest from './Machine round/AutoSuggest'
 
 
 function App() {
 
   return (
-    <div className="App">
-      {/* <CheckBox /> */}
-      <InfiniteScrollDomApi/>
+    <div >
+      <AutoSuggest />
     </div>
   )
 }

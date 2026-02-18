@@ -1,15 +1,11 @@
-
-import AutoSuggest from './Machine round/AutoSuggest'
-import ShowMoreData from './ShowMore/ShowMoreData'
-
+import { ObjectUseState } from "./immutable State/ObjectUseState";
 
 function App() {
-
   return (
-    <div >
-      <ShowMoreData />
+    <div>
+      <ObjectUseState />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

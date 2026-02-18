@@ -1,9 +1,9 @@
-import { ObjectUseState } from "./immutable State/ObjectUseState";
+import { Parent } from "./Parent child/Parent";
 
 function App() {
   return (
     <div>
-      <ObjectUseState />
+      <Parent />
     </div>
   );
 }

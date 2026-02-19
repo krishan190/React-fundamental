@@ -1,9 +1,9 @@
-import { Parent } from "./Parent child/Parent";
+import Todo from "./To-do App/Todo";
 
 function App() {
   return (
     <div>
-      <Parent />
+      <Todo/>
     </div>
   );
 }

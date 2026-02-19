@@ -13,7 +13,6 @@ function ShowMoreData() {
         const data = await res.json();
         console.log("data", data);
 
-        console.log("New Users:", data.users);
         console.log("All Users:", [...users, ...data.users]);
         setUsers(prev => [...prev, ...data.users]);
     };
